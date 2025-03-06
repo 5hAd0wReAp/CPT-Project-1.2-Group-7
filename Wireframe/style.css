@@ -1,0 +1,106 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
+
+.top-bar {
+  background: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.main-content { padding-top: 70px; padding: 20px; }
+
+.add-dish-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dish-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dish-card img { width: 100%; border-radius: 5px; margin-bottom: 10px; }
+
+.dish-card h3 { font-size: 18px; margin-bottom: 10px; }
+
+.dish-card p { font-size: 14px; color: #666; }
+
+.edit-button, .delete-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background: #777;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button { background: #a33; margin-left: 10px; }
+
+.dish-detail {
+  max-width: 800px;
+  margin: 70px auto 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dish-detail img { width: 100%; border-radius: 5px; margin-bottom: 20px; }
+
+.dish-detail h2 { font-size: 24px; margin-bottom: 10px; }
+
+.dish-detail p { font-size: 16px; color: #666; line-height: 1.6; }
+
+.dish-form {
+  max-width: 600px;
+  margin: 70px auto 20px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dish-form input[type="text"],
+.dish-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dish-form input[type="file"] { margin-bottom: 15px; }
+
+.dish-form button {
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
