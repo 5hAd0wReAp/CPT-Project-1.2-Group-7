@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Site</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="top-bar">
+    <h1>Recipe Site</h1>
+  </div>
+
+  <div class="main-content">
+    <button class="add-dish-button" onclick="window.location.href='add-edit-dish.html'">Add New Dish</button>
+
+    <div class="dish-list">
+      <div class="dish-card" onclick="window.location.href='dish-detail.html'">
+        <h3>Dish Name</h3>
+        <img src="https://via.placeholder.com/300" alt="Dish Image">
+        <p>This is a short description of the dish.</p>
+        <button class="edit-button" onclick="window.location.href='add-edit-dish.html'">Edit</button>
+        <button class="delete-button">Delete</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
